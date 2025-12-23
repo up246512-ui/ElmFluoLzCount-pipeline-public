@@ -1,11 +1,11 @@
 ---
-# Elmo — Public Pipeline Repository
+#  ElmFluoLzCount — Public Pipeline Repository
 
 ## Overview
 
-This repository contains the public version of the Elmo fluorescence-image analysis pipeline, including:
+This repository contains the public version of the  ElmFluoLzCount fluorescence-image analysis pipeline, including:
 
-- Elmo_25 Fiji/ImageJ macro
+- ElmFluoLzCount Fiji/ImageJ macro
 - Python notebook (Google Colab–compatible)
 - Example input dictionary
 - Documentation (README files) for each module
@@ -15,13 +15,13 @@ The goal is to provide researchers with a fully operational toolkit for image or
 ## Repository Structure
 
 ```
-Elmo-pipeline-public/
+ElmFluoLzCount-pipeline-public/
 ├── macro/
-│ ├── Elmo_25_final.ijm
+│ ├── ElmFluoLzCount.ijm
 │ ├── README.md
 │
 ├── notebook/
-│ ├── Elmo_notebook.ipynb
+│ ├── ElmFluoLzCount_notebook.ipynb
 │ ├── README.md
 │
 ├── example_dictionary/
@@ -34,7 +34,7 @@ Each folder contains its own dedicated README explaining usage, requirements, an
 
 ## Included Components
 
-### 1. Fiji/ImageJ Macro — Elmo_25
+### 1. Fiji/ImageJ Macro — ElmFluoLzCount
 
 Located in macro/
 
@@ -66,7 +66,7 @@ A text file demonstrating how to structure the sample-key dictionary required by
 
 1. Download or clone the repository.
 2. Prepare your datasets following the folder hierarchy described in macro/README.md.
-3. Run the Elmo_25 macro in Fiji/ImageJ.
+3. Run the ElmFluoLzCount macro in Fiji/ImageJ.
 4. (Optional) Upload the .ipynb notebook to Google Colab for extended analysis.
 5. Use the sample dictionary as a template for your own experiments.
 
